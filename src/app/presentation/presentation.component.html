@@ -1,0 +1,5 @@
+<h1>Presentation</h1>
+
+<app-text [slide]="currentSlide" *ngIf="currentSlide.type === 'text'"></app-text>
+<app-media [slide]="currentSlide" *ngIf="currentSlide.type === 'media'"></app-media>
+<app-shape [slide]="currentSlide" *ngIf="currentSlide.type === 'shape'"></app-shape>
