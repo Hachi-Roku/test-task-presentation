@@ -33,7 +33,7 @@ export class PresentationComponent implements OnInit, OnDestroy {
         index = 0;
       }
       that.currentSlide = that.slides[index++];
-    }, 7000);
+    }, this.delay);
   }
 
   updateSlidesLayout() {
